@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,134 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Na8-W5-h87">
+                                <rect key="frame" x="73" y="65" width="123" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEm-wl-uge">
+                                <rect key="frame" x="68" y="132" width="96" height="54"/>
+                                <state key="normal" image="defaultLogo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectLogoImage11:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CbB-Zs-cgT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFz-rc-a1C">
+                                <rect key="frame" x="68" y="198" width="96" height="54"/>
+                                <state key="normal" image="defaultLogo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectLogoImage12:" destination="BYZ-38-t0r" eventType="touchUpInside" id="444-F5-AJj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Bd-e5-GxI">
+                                <rect key="frame" x="68" y="268" width="96" height="54"/>
+                                <state key="normal" image="defaultLogo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectLogoImage13:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PPo-Uh-A6o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I48-No-kc6">
+                                <rect key="frame" x="68" y="337" width="96" height="54"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectLogoImage14:" destination="BYZ-38-t0r" eventType="touchUpInside" id="afZ-1x-IMh"/>
+                                    <segue destination="ydj-pc-hjT" kind="popoverPresentation" popoverAnchorView="I48-No-kc6" id="Iz2-cC-KVX">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FrE-dt-uwU">
+                                <rect key="frame" x="290" y="198" width="96" height="54"/>
+                                <state key="normal" image="defaultLogo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectLogoImage22:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bKk-bz-eI0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q9G-8l-oSI">
+                                <rect key="frame" x="290" y="268" width="96" height="54"/>
+                                <state key="normal" image="defaultLogo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectLogoImage23:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GNJ-yS-nfu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1aM-ml-cDo">
+                                <rect key="frame" x="290" y="337" width="96" height="54"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectLogoImage24:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ypt-xw-3zx"/>
+                                    <segue destination="ydj-pc-hjT" kind="popoverPresentation" popoverAnchorView="1aM-ml-cDo" id="oSF-j8-FcI">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O8t-Dv-MJG">
+                                <rect key="frame" x="290" y="132" width="96" height="54"/>
+                                <state key="normal" image="defaultLogo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectLogoImage21:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cCV-pK-n75"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="logoImageBtn11" destination="eEm-wl-uge" id="Irl-D2-kiS"/>
+                        <outlet property="logoImageBtn12" destination="BFz-rc-a1C" id="VAg-TT-U1d"/>
+                        <outlet property="logoImageBtn13" destination="9Bd-e5-GxI" id="ahr-LR-u9G"/>
+                        <outlet property="logoImageBtn14" destination="I48-No-kc6" id="LzD-iu-cTG"/>
+                        <outlet property="logoImageBtn21" destination="O8t-Dv-MJG" id="wcl-Hm-nLP"/>
+                        <outlet property="logoImageBtn22" destination="FrE-dt-uwU" id="TJt-LB-NUw"/>
+                        <outlet property="logoImageBtn23" destination="Q9G-8l-oSI" id="TKt-Zo-pIt"/>
+                        <outlet property="logoImageBtn24" destination="1aM-ml-cDo" id="oDi-FS-C6i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Color Picker View Controller-->
+        <scene sceneID="KOZ-JK-LdI">
+            <objects>
+                <viewController id="ydj-pc-hjT" customClass="ColorPickerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8SG-Jf-nZv"/>
+                        <viewControllerLayoutGuide type="bottom" id="ccM-gL-V3r"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mtz-mC-2eX">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xR7-m6-LFl"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="300" height="500"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rFl-eQ-9tc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="960" y="340"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="defaultLogo.png" width="96" height="54"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="oSF-j8-FcI"/>
+    </inferredMetricsTieBreakers>
 </document>

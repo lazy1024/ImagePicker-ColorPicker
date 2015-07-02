@@ -14,6 +14,23 @@
 		15953B9F1B4125C10069FF1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15953B9E1B4125C10069FF1F /* Images.xcassets */; };
 		15953BA21B4125C10069FF1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15953BA01B4125C10069FF1F /* LaunchScreen.xib */; };
 		15953BAE1B4125C10069FF1F /* ImagePickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15953BAD1B4125C10069FF1F /* ImagePickerDemoTests.m */; };
+		15953BB81B414A940069FF1F /* defaultLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15953BB71B414A940069FF1F /* defaultLogo.png */; };
+		15C34A7A1B43D47D0063E949 /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C34A621B43D47D0063E949 /* checkerboard.png */; };
+		15C34A7B1B43D47D0063E949 /* checkerboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C34A631B43D47D0063E949 /* checkerboard@2x.png */; };
+		15C34A7C1B43D47D0063E949 /* colorPickerKnob.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C34A641B43D47D0063E949 /* colorPickerKnob.png */; };
+		15C34A7D1B43D47D0063E949 /* colorPickerKnob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C34A651B43D47D0063E949 /* colorPickerKnob@2x.png */; };
+		15C34A7E1B43D47D0063E949 /* HSV.c in Sources */ = {isa = PBXBuildFile; fileRef = 15C34A661B43D47D0063E949 /* HSV.c */; };
+		15C34A7F1B43D47D0063E949 /* KZColorCompareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C34A691B43D47D0063E949 /* KZColorCompareView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15C34A801B43D47D0063E949 /* KZColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C34A6B1B43D47D0063E949 /* KZColorPicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15C34A811B43D47D0063E949 /* KZColorPickerAlphaSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C34A6D1B43D47D0063E949 /* KZColorPickerAlphaSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15C34A821B43D47D0063E949 /* KZColorPickerBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C34A6F1B43D47D0063E949 /* KZColorPickerBrightnessSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15C34A831B43D47D0063E949 /* KZColorPickerHSWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C34A711B43D47D0063E949 /* KZColorPickerHSWheel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15C34A841B43D47D0063E949 /* KZColorPickerSwatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C34A731B43D47D0063E949 /* KZColorPickerSwatchView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15C34A851B43D47D0063E949 /* KZUnitSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C34A751B43D47D0063E949 /* KZUnitSlider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		15C34A861B43D47D0063E949 /* pickerColorWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C34A761B43D47D0063E949 /* pickerColorWheel.png */; };
+		15C34A871B43D47D0063E949 /* pickerColorWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C34A771B43D47D0063E949 /* pickerColorWheel@2x.png */; };
+		15C34A881B43D47D0063E949 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C34A791B43D47D0063E949 /* UIColor-Expanded.m */; };
+		15C34A8C1B43D4C20063E949 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C34A8B1B43D4C20063E949 /* ColorPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +57,34 @@
 		15953BA71B4125C10069FF1F /* ImagePickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15953BAC1B4125C10069FF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15953BAD1B4125C10069FF1F /* ImagePickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerDemoTests.m; sourceTree = "<group>"; };
+		15953BB71B414A940069FF1F /* defaultLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultLogo.png; sourceTree = "<group>"; };
+		15C34A621B43D47D0063E949 /* checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkerboard.png; sourceTree = "<group>"; };
+		15C34A631B43D47D0063E949 /* checkerboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkerboard@2x.png"; sourceTree = "<group>"; };
+		15C34A641B43D47D0063E949 /* colorPickerKnob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorPickerKnob.png; sourceTree = "<group>"; };
+		15C34A651B43D47D0063E949 /* colorPickerKnob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "colorPickerKnob@2x.png"; sourceTree = "<group>"; };
+		15C34A661B43D47D0063E949 /* HSV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HSV.c; sourceTree = "<group>"; };
+		15C34A671B43D47D0063E949 /* HSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSV.h; sourceTree = "<group>"; };
+		15C34A681B43D47D0063E949 /* KZColorCompareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorCompareView.h; sourceTree = "<group>"; };
+		15C34A691B43D47D0063E949 /* KZColorCompareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorCompareView.m; sourceTree = "<group>"; };
+		15C34A6A1B43D47D0063E949 /* KZColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPicker.h; sourceTree = "<group>"; };
+		15C34A6B1B43D47D0063E949 /* KZColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPicker.m; sourceTree = "<group>"; };
+		15C34A6C1B43D47D0063E949 /* KZColorPickerAlphaSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerAlphaSlider.h; sourceTree = "<group>"; };
+		15C34A6D1B43D47D0063E949 /* KZColorPickerAlphaSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerAlphaSlider.m; sourceTree = "<group>"; };
+		15C34A6E1B43D47D0063E949 /* KZColorPickerBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerBrightnessSlider.h; sourceTree = "<group>"; };
+		15C34A6F1B43D47D0063E949 /* KZColorPickerBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerBrightnessSlider.m; sourceTree = "<group>"; };
+		15C34A701B43D47D0063E949 /* KZColorPickerHSWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerHSWheel.h; sourceTree = "<group>"; };
+		15C34A711B43D47D0063E949 /* KZColorPickerHSWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerHSWheel.m; sourceTree = "<group>"; };
+		15C34A721B43D47D0063E949 /* KZColorPickerSwatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZColorPickerSwatchView.h; sourceTree = "<group>"; };
+		15C34A731B43D47D0063E949 /* KZColorPickerSwatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZColorPickerSwatchView.m; sourceTree = "<group>"; };
+		15C34A741B43D47D0063E949 /* KZUnitSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZUnitSlider.h; sourceTree = "<group>"; };
+		15C34A751B43D47D0063E949 /* KZUnitSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZUnitSlider.m; sourceTree = "<group>"; };
+		15C34A761B43D47D0063E949 /* pickerColorWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickerColorWheel.png; sourceTree = "<group>"; };
+		15C34A771B43D47D0063E949 /* pickerColorWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pickerColorWheel@2x.png"; sourceTree = "<group>"; };
+		15C34A781B43D47D0063E949 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		15C34A791B43D47D0063E949 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		15C34A8A1B43D4C20063E949 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPickerViewController.h; path = VCs/ColorPickerViewController.h; sourceTree = "<group>"; };
+		15C34A8B1B43D4C20063E949 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPickerViewController.m; path = VCs/ColorPickerViewController.m; sourceTree = "<group>"; };
+		15C34A8D1B43DC410063E949 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +126,9 @@
 		15953B901B4125C10069FF1F /* ImagePickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				15C34A891B43D4930063E949 /* VCs */,
+				15C34A611B43D47D0063E949 /* ColorPicker */,
+				15953BB91B414A9A0069FF1F /* Resouse */,
 				15953B951B4125C10069FF1F /* AppDelegate.h */,
 				15953B961B4125C10069FF1F /* AppDelegate.m */,
 				15953B981B4125C10069FF1F /* ViewController.h */,
@@ -88,6 +136,7 @@
 				15953B9B1B4125C10069FF1F /* Main.storyboard */,
 				15953B9E1B4125C10069FF1F /* Images.xcassets */,
 				15953BA01B4125C10069FF1F /* LaunchScreen.xib */,
+				15C34A8D1B43DC410063E949 /* PrefixHeader.pch */,
 				15953B911B4125C10069FF1F /* Supporting Files */,
 			);
 			path = ImagePickerDemo;
@@ -117,6 +166,54 @@
 				15953BAC1B4125C10069FF1F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15953BB91B414A9A0069FF1F /* Resouse */ = {
+			isa = PBXGroup;
+			children = (
+				15953BB71B414A940069FF1F /* defaultLogo.png */,
+			);
+			name = Resouse;
+			sourceTree = "<group>";
+		};
+		15C34A611B43D47D0063E949 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				15C34A621B43D47D0063E949 /* checkerboard.png */,
+				15C34A631B43D47D0063E949 /* checkerboard@2x.png */,
+				15C34A641B43D47D0063E949 /* colorPickerKnob.png */,
+				15C34A651B43D47D0063E949 /* colorPickerKnob@2x.png */,
+				15C34A661B43D47D0063E949 /* HSV.c */,
+				15C34A671B43D47D0063E949 /* HSV.h */,
+				15C34A681B43D47D0063E949 /* KZColorCompareView.h */,
+				15C34A691B43D47D0063E949 /* KZColorCompareView.m */,
+				15C34A6A1B43D47D0063E949 /* KZColorPicker.h */,
+				15C34A6B1B43D47D0063E949 /* KZColorPicker.m */,
+				15C34A6C1B43D47D0063E949 /* KZColorPickerAlphaSlider.h */,
+				15C34A6D1B43D47D0063E949 /* KZColorPickerAlphaSlider.m */,
+				15C34A6E1B43D47D0063E949 /* KZColorPickerBrightnessSlider.h */,
+				15C34A6F1B43D47D0063E949 /* KZColorPickerBrightnessSlider.m */,
+				15C34A701B43D47D0063E949 /* KZColorPickerHSWheel.h */,
+				15C34A711B43D47D0063E949 /* KZColorPickerHSWheel.m */,
+				15C34A721B43D47D0063E949 /* KZColorPickerSwatchView.h */,
+				15C34A731B43D47D0063E949 /* KZColorPickerSwatchView.m */,
+				15C34A741B43D47D0063E949 /* KZUnitSlider.h */,
+				15C34A751B43D47D0063E949 /* KZUnitSlider.m */,
+				15C34A761B43D47D0063E949 /* pickerColorWheel.png */,
+				15C34A771B43D47D0063E949 /* pickerColorWheel@2x.png */,
+				15C34A781B43D47D0063E949 /* UIColor-Expanded.h */,
+				15C34A791B43D47D0063E949 /* UIColor-Expanded.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		15C34A891B43D4930063E949 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				15C34A8A1B43D4C20063E949 /* ColorPickerViewController.h */,
+				15C34A8B1B43D4C20063E949 /* ColorPickerViewController.m */,
+			);
+			name = VCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +296,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C34A7C1B43D47D0063E949 /* colorPickerKnob.png in Resources */,
+				15953BB81B414A940069FF1F /* defaultLogo.png in Resources */,
+				15C34A7D1B43D47D0063E949 /* colorPickerKnob@2x.png in Resources */,
 				15953B9D1B4125C10069FF1F /* Main.storyboard in Resources */,
+				15C34A861B43D47D0063E949 /* pickerColorWheel.png in Resources */,
 				15953BA21B4125C10069FF1F /* LaunchScreen.xib in Resources */,
+				15C34A7A1B43D47D0063E949 /* checkerboard.png in Resources */,
 				15953B9F1B4125C10069FF1F /* Images.xcassets in Resources */,
+				15C34A871B43D47D0063E949 /* pickerColorWheel@2x.png in Resources */,
+				15C34A7B1B43D47D0063E949 /* checkerboard@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +323,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C34A821B43D47D0063E949 /* KZColorPickerBrightnessSlider.m in Sources */,
+				15C34A801B43D47D0063E949 /* KZColorPicker.m in Sources */,
+				15C34A831B43D47D0063E949 /* KZColorPickerHSWheel.m in Sources */,
+				15C34A851B43D47D0063E949 /* KZUnitSlider.m in Sources */,
+				15C34A841B43D47D0063E949 /* KZColorPickerSwatchView.m in Sources */,
 				15953B9A1B4125C10069FF1F /* ViewController.m in Sources */,
+				15C34A811B43D47D0063E949 /* KZColorPickerAlphaSlider.m in Sources */,
+				15C34A8C1B43D4C20063E949 /* ColorPickerViewController.m in Sources */,
 				15953B971B4125C10069FF1F /* AppDelegate.m in Sources */,
+				15C34A881B43D47D0063E949 /* UIColor-Expanded.m in Sources */,
 				15953B941B4125C10069FF1F /* main.m in Sources */,
+				15C34A7E1B43D47D0063E949 /* HSV.c in Sources */,
+				15C34A7F1B43D47D0063E949 /* KZColorCompareView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +459,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mig/Demo/ImagePickerDemo/ImagePickerDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = ImagePickerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +471,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/mig/Demo/ImagePickerDemo/ImagePickerDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = ImagePickerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +532,7 @@
 				15953BB31B4125C10069FF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15953BB41B4125C10069FF1F /* Build configuration list for PBXNativeTarget "ImagePickerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +541,7 @@
 				15953BB61B4125C10069FF1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
